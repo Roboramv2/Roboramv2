@@ -28,6 +28,7 @@ Web Dev, IoT, 3D Modelling, Photoshop, Marine Biology, Small-scale Automation, A
 
 ## Connections:
 ![Badge](https://img.shields.io/badge/Mail-sriramkraja@gmail.com-454eb0?logo=gmail)
+[![Badge](https://img.shields.io/badge/Linkedin-Sriram%20R-454eb0?logo=linkedin)](https://www.linkedin.com/in/sriram-r-745a531b0/)
 ![Badge](https://img.shields.io/badge/Discord-Roboram%23%201298-454eb0?logo=discord)
 [![Badge](https://img.shields.io/badge/Spotify-Sriram%20R-454eb0?logo=spotify)](https://open.spotify.com/user/h9azvkbc9ms5fa1ealidksabt?si=7523cac7a9f04687)
 ![Badge](https://img.shields.io/badge/PS-valhallaodin--256-454eb0?logo=playstation)
