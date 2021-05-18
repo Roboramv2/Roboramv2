@@ -29,7 +29,7 @@ Web Dev, IoT, 3D Modelling, Photoshop, Marine Biology, Small-scale Automation, A
 
 ## Activity:
 
-[![streak moment](https://github-readme-streak-stats.herokuapp.com/?user=Roboramv2&theme=blue-green)](https://github.com/DenverCoder1/github-readme-streak-stats)
+![streak moment](https://github-readme-streak-stats.herokuapp.com/?user=Roboramv2&theme=blue-green)
 
 ## Connections:
 ![Badge](https://img.shields.io/badge/Mail-sriramkraja@gmail.com-454eb0?logo=gmail)
