@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- BootStrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery.min.js"
+    ></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="#header">Home</a>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div id="header" class="header-container">
+        <h1>Sriram</h1>
+        <h4 class="wordCarousel">
+          <span>I am </span>
+          <div>
+            <ul class="flip4">
+              <li class="short-li">a Developer</li>
+              <li>a Hardware Enthusiast</li>
+              <li class="short-li">an Innovator</li>
+              <li class="medium-li">a Fervent Learner</li>
+            </ul>
+          </div>
+        </h4>
+
+        <div class="social-icons">
+          <a href="https://github.com/Roboramv2" target="_blank"
+            ><i class="fab fa-github fa-3x"></i
+          ></a>
+          <a href="mailto:sriramkraja@gmail.com" target="_blank"
+            ><i class="far fa-envelope fa-3x"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sriram-r-745a531b0/"
+            target="_blank"
+            ><i class="fab fa-linkedin fa-3x"></i
+          ></a>
+          <a title="Roboram#1298" target="_blank"
+            ><i class="fab fa-discord fa-3x"></i
+          ></a>
+        </div>
+
+        <a href="#about"
+          ><i class="arrow-down fas fa-chevron-down fa-7x"></i
+        ></a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1>About me</h1>
+
+      <div class="about-content">
+        <div class="about-left">
+          <p>
+            I am a Third year B.E. ECE student at SSN College of Engineering. I
+            am interested in several fields of technology but it all mostly
+            boils down to how these fields apply in outer space, particularly on
+            other planets. Other than that, I have delved a bit into Web
+            Development, API's, Internet of Things, 3D Design etc.
+          </p>
+        </div>
+        <div class="about-right">
+          <img src="./assets/images/outline.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="interests">
+      <h1>Interests</h1>
+      <div class="interests-container">
+        <div id="container">
+          <div id="stage">
+            <div id="shape" class="ring backfaces">
+              <div class="plane one">
+                <p>Machine</p>
+                <p>Learning</p>
+              </div>
+              <div class="plane two">
+                <p>Hardware</p>
+                <p>Architecture</p>
+              </div>
+              <div class="plane three">
+                <p>Space</p>
+                <p>Exploration</p>
+              </div>
+              <div class="plane four">
+                <p>Internet of</p>
+                <p>Things</p>
+              </div>
+              <div class="plane five">
+                <p>Alternate</p>
+                <p>Energy</p>
+              </div>
+              <div class="plane six">
+                <p>Sustainable</p>
+                <p>Habitation</p>
+              </div>
+              <div class="plane seven">
+                <p>Marine</p>
+                <p>Biology</p>
+              </div>
+              <div class="plane eight">
+                <p>Everyday</p>
+                <p>Automation</p>
+              </div>
+              <div class="plane nine">
+                <p>Material</p>
+                <p>Analysis</p>
+              </div>
+              <div class="plane ten">
+                <p>Embeddded</p>
+                <p>Systems</p>
+              </div>
+              <div class="plane eleven">
+                <p>3D</p>
+                <p>Design</p>
+              </div>
+              <div class="plane twelve">
+                <p>Web</p>
+                <p>Development</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h1>Projects</h1>
+      <h2>Hardware Projects</h2>
+      <div class="projects-gallery">
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/hwcrop.png'),
+              no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Obstacle Avoider</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/hw1.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Hardware</p>
+                    <p>Arduino Uno</p>
+                    <p>SG-90 servo</p>
+                    <p>L298N driver</p>
+                    <p>HC-SR04</p>
+                    <p>DC motors</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Obstacle Avoider</h4>
+              <p class="description">
+                Obstacle avoider which uses a servo in tandem with an ultrasonic
+                sensor to detect obstacles at a wider range and make better
+                decisions.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/Obstacle-avoider-with-improved-coverage"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/hw2.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Autobox</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/hw2.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Hardware</p>
+                    <p>Arduino Uno</p>
+                    <p>Raspberry pi</p>
+                    <p>HC-06</p>
+                    <p>HC-SR04</p>
+                    <p>pyAudio</p>
+                    <p>Librosa</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Autobox</h4>
+              <p class="description">
+                A non-contact box concept implemented with three variations:
+                proximity, phone commands, and voice commands. Utilizes SG-90
+                for lid actuation.
+              </p>
+              <div class="github-link">
+                <a href="https://github.com/Roboramv2/Autobox" target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/hw3.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Arduino</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/hw3.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Hardware</p>
+                    <p>Arduino Uno</p>
+                    <p>Sensors</p>
+                    <p>Actuators</p>
+                    <p>Arduino IDE</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Arduino</h4>
+              <p class="description">
+                Created and currently maintaining a repository with tutorials,
+                code, images for interfacing different components with an
+                arduino uno.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/Interfacing-with-Arduino-Uno"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/hw4.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Raspberry Pi</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/hw4.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Hardware</p>
+                    <p>Raspberry pi 4</p>
+                    <p>Sensors</p>
+                    <p>Actuators</p>
+                    <p>Python</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Raspberry Pi</h4>
+              <p class="description">
+                Created and currently maintaining a repository with turorials,
+                code, images for interfacing different components with a
+                raspberry pi 4.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/Interfacing-with-Raspberry-Pi-4"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>Software Projects</h2>
+      <div class="projects-gallery">
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/sw1.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Voice Actuation</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/sw1.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Software</p>
+                    <p>Raspberry pi 4</p>
+                    <p>Python</p>
+                    <p>Librosa</p>
+                    <p>pyAudio</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Voice Actuation</h4>
+              <p class="description">
+                ML-less voice actuation mechanism for IoT and other low memory
+                applications. Uses less starting data than ML-based methods.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/Voice-actuation-for-projects-without-ML"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/sw2.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Wikipedia gui</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/sw2.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Software</p>
+                    <p>Python</p>
+                    <p>Wikipedia API</p>
+                    <p>Tkinter</p>
+                    <p>GUI</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Wikipedia GUI</h4>
+              <p class="description">
+                GUI for accessing Wikipedia using wikipedia python library and
+                extract selected information, and/or save the whole page as a
+                pdf locally. Made with tkinter.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/wikipedia-gui"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/sw3.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>OCR api</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/sw3.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Software</p>
+                    <p>Python</p>
+                    <p>Machine Learning</p>
+                    <p>Image Processing</p>
+                    <p>FastAPI</p>
+                    <p>Heroku</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>OCR API</h4>
+              <p class="description">
+                An api for recognition of jpg images of numeric digits, created
+                with fastapi. Hosted on heroku. Can handle multiple users
+                simultaneously.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/fastapi-ocr"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/sw4.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Autoencoder</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/sw4.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Software</p>
+                    <p>Python</p>
+                    <p>Keras</p>
+                    <p>Flask</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Autoencoder</h4>
+              <p class="description">
+                Autoencoder webapp that takes in 28x28 images and encodes it as
+                an npy file, then takes in the npy file and decodes it into a
+                28x28 image.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/autoencoder"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/sw5.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Discord bot</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/sw5.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Software</p>
+                    <p>Python</p>
+                    <p>Discord.py</p>
+                    <p>Twitter</p>
+                    <p>Youtube</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Discord Bot</h4>
+              <p class="description">
+                Discord bot with discord.py api and additional twitter bot
+                functionalities.Can search Youtube and play songs.Can send
+                appropriate gifs when called upon.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/discord-bot"
+                  target="_blank"
+                  >Check it out here</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-card"
+          style="
+            background: url('./assets/images/sw6.png'), no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Blender</h3>
+        </div>
+        <div id="myModal" class="modal">
+          <div class="modal-container">
+            <span class="close">&times;</span>
+            <div class="model-content">
+              <div class="project-top">
+                <div class="project-left">
+                  <img
+                    src="./assets/images/project/sw6.png"
+                    alt="project-image"
+                    width="357"
+                    height="250"
+                  />
+                </div>
+                <div class="project-right">
+                  <h5>Tags</h5>
+                  <div class="project-tags">
+                    <p>Software</p>
+                    <p>Blender</p>
+                    <p>3D modelling</p>
+                    <p>Animation</p>
+                  </div>
+                </div>
+              </div>
+
+              <h4>Blender</h4>
+              <p class="description">
+                A collection of Blender projects to explore it's
+                functionalities.
+              </p>
+              <div class="github-link">
+                <a
+                  href="https://github.com/Roboramv2/emission-blender"
+                  target="_blank"
+                  >Project 1</a
+                >
+                <a
+                  href="https://github.com/Roboramv2/glass-box-blender"
+                  target="_blank"
+                  >Project 2</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certificates">
+      <h1>Courses Done</h1>
+      <div class="projects-gallery">
+        <div
+          class="certificate-card"
+          style="
+            background: url('./assets/images/cert-icons/!!!\ Deep\ Learning\ Specialization.jpg'),
+              no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>DLNN Spl.</h3>
+        </div>
+        <div id="myModal" class="modal cert">
+          <div class="modal-container certificate-modal">
+            <span class="close">&times;</span>
+            <div class="model-content cert-image">
+              <img
+                src="./assets/images/certificates//!!!DLNN.JPG"
+                alt="cert"
+                style="width: 780px; height: 560px"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="certificate-card"
+          style="
+            background: url('./assets/images/cert-icons/!!!\ Python\ Specialization.jpg'),
+              no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Python Spl.</h3>
+        </div>
+        <div id="myModal" class="modal cert">
+          <div class="modal-container certificate-modal">
+            <span class="close">&times;</span>
+            <div class="model-content cert-image">
+              <img
+                src="./assets/images/certificates/!!!python.JPG"
+                alt="cert"
+                style="width: 780px; height: 560px"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="certificate-card"
+          style="
+            background: url('./assets/images/cert-icons/comricon.jpg'),
+              no-repeat center center;
+            background-size: cover;
+          "
+        >
+          <h3>Mobile Robots</h3>
+        </div>
+        <div id="myModal" class="modal cert">
+          <div class="modal-container certificate-modal">
+            <span class="close">&times;</span>
+            <div class="model-content cert-image">
+              <img
+                src="./assets/images/certificates/comr.JPG"
+                alt="cert"
+                style="width: 780px; height: 560px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="certificate-card" style="background-color: #72c494">
+          <h3>See all</h3>
+        </div>
+        <div id="myModal" class="modal cert">
+          <div class="modal-container certificate-modal">
+            <span class="close">&times;</span>
+            <div class="model-content cert-image">
+              <div
+                id="myCarousel"
+                class="carousel slide"
+                data-interval="3200"
+                data-ride="carousel"
+              >
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                  <div class="active item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/DLNN1.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/DLNN2.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/DLNN3.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/DLNN4.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/DLNN5.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/python1.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/python2.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/python3.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/python4.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                  <div class="item carousel-fade">
+                    <img
+                      src="./assets/images/certificates/python5.JPG"
+                      alt="cert"
+                      style="width: 780px; height: 560px"
+                    />
+                  </div>
+                </div>
+                <!-- Carousel nav -->
+                <a
+                  class="carousel-control left"
+                  href="#myCarousel"
+                  data-slide="prev"
+                >
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a
+                  class="carousel-control right"
+                  href="#myCarousel"
+                  data-slide="next"
+                >
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contact</h1>
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button closebtn"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>ME</span>
+                </div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <i class="fab fa-github fa-2x"></i>
+                    <a href="https://github.com/Roboramv2" target="_blank"
+                      >Github</a
+                    >
+                  </div>
+                  <div class="app-form-group">
+                    <i class="far fa-envelope fa-2x"></i>
+                    <a href="mailto:sriramkraja@gmail.com" target="_blank"
+                      >Mail</a
+                    >
+                  </div>
+
+                  <div class="app-form-group">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <a
+                      href="https://www.linkedin.com/in/sriram-r-745a531b0/"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                  </div>
+                  <div class="app-form-group">
+                    <i class="fab fa-discord fa-2x"></i>
+
+                    <a
+                      href="https://www.linkedin.com/in/sriram-r-745a531b0/"
+                      target="_blank"
+                      >Discord</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
