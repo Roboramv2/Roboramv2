@@ -1,6 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
 }
 
 body {
@@ -12,177 +18,129 @@ body {
 
 .header {
   background: url("./assets/images/popsicle.jpg") no-repeat center center;
-  min-height: 100%;
-  width: 100vw;
+  min-height: 45.688rem;
+  min-width: 100vw;
   background-size: cover;
   font-family: "Roboto Mono", monospace;
 }
 
 .header-container h1 {
-  letter-spacing: 30px;
+  letter-spacing: 1.875rem;
   text-transform: uppercase;
-  font-size: 150px;
+  font-size: 9.375rem;
   color: #144b64;
   opacity: 45%;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 .header-container {
-  margin: 50px auto;
+  margin: 3.125rem auto;
   width: 100%;
   text-align: center;
 }
+
 .header-container p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
-  margin: 0 30px;
-  letter-spacing: 5px;
+  margin: 0 1.875rem;
+  letter-spacing: 0.313rem;
 }
 
 /* word carousel styles */
 
 .wordCarousel {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 80px;
+  margin-left: 5rem;
 }
 
 .wordCarousel div {
   overflow: hidden;
   position: relative;
-  /* float: right; */
-  height: 65px;
-  padding-top: 10px;
-  margin-top: 10px;
+  height: 4.063rem;
+  padding-top: 0.625rem;
+  margin-top: 0.625rem;
 }
 
 .wordCarousel div li {
   font-weight: 700;
-  padding: 0 10px;
-  height: 45px;
-  margin-left: 10px;
-  margin-bottom: 45px;
+  padding: 0 0.625rem;
+  height: 2.813rem;
+  margin-left: 0.625rem;
+  margin-bottom: 2.813rem;
   display: block;
 }
 
 .short-li {
-  width: 240px;
+  width: 60%;
 }
 .medium-li {
-  width: 330px;
+  width: 85%;
 }
-/* .flip2 {
-  animation: flip2 6s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-}
-.flip3 {
-  animation: flip3 8s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-} */
+
 .flip4 {
   animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
 }
 
-/* @keyframes flip2 {
-  0% {
-    margin-top: -180px;
-  }
-  5% {
-    margin-top: -90px;
-  }
-  50% {
-    margin-top: -90px;
-  }
-  55% {
-    margin-top: 0px;
-  }
-  99.99% {
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: -250px;
-  }
-}
-
-@keyframes flip3 {
-  0% {
-    margin-top: -270px;
-  }
-  5% {
-    margin-top: -180px;
-  }
-  33% {
-    margin-top: -180px;
-  }
-  38% {
-    margin-top: -90px;
-  }
-  66% {
-    margin-top: -90px;
-  }
-  71% {
-    margin-top: 0px;
-  }
-  99.99% {
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: -270px;
-  }
-} */
-
 @keyframes flip4 {
   0% {
-    margin-top: -360px;
+    margin-top: -22.5rem;
   }
   5% {
-    margin-top: -270px;
+    margin-top: -16.875rem;
   }
   25% {
-    margin-top: -270px;
+    margin-top: -16.875rem;
   }
   30% {
-    margin-top: -180px;
+    margin-top: -11.25rem;
   }
   50% {
-    margin-top: -180px;
+    margin-top: -11.25rem;
   }
   55% {
-    margin-top: -90px;
+    margin-top: -5.625rem;
   }
   75% {
-    margin-top: -90px;
+    margin-top: -5.625rem;
   }
   80% {
-    margin-top: 0px;
+    margin-top: 0rem;
   }
   99.99% {
-    margin-top: 0px;
+    margin-top: 0rem;
   }
   100% {
-    margin-top: -360px;
+    margin-top: -22.5rem;
   }
 }
 
 .social-icons {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .social-icons a {
   color: rgb(20, 75, 100);
   opacity: 50%;
-  padding: 7px 15px;
+  padding: 0.438rem 0.938rem;
 }
 .social-icons a:hover {
   opacity: 70%;
 }
 
+.fa-size {
+  font-size: 2.813rem;
+}
+
 .arrow-down {
-  margin-top: 80px;
+  margin-top: 5rem;
   color: rgb(20, 75, 100);
   opacity: 50%;
   cursor: pointer;
+  font-size: 7.5rem;
 }
 
 .arrow-down:hover {
@@ -197,11 +155,10 @@ nav a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
   cursor: pointer;
-  margin: 20px 20px;
+  margin: 1.25rem 1.25rem;
   color: rgb(87, 134, 156);
-  /* transition: transform 0.4s; */
 
-  font-size: 23px;
+  font-size: 1.438rem;
   font-weight: 500;
 }
 @keyframes rotation {
@@ -222,8 +179,8 @@ nav a:hover {
 /* About */
 
 #about {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -237,27 +194,32 @@ nav a:hover {
 }
 
 #about h1 {
-  font-size: 120px;
-  letter-spacing: 10px;
+  font-size: 7.5rem;
+  letter-spacing: 0.625rem;
   text-align: center;
   font-weight: 600;
 }
 
 #about p {
-  padding: 40px;
-  letter-spacing: 2px;
+  width: 85%;
+  padding: 2.5rem;
+  letter-spacing: 0.125rem;
   line-height: 4rem;
-  margin-right: 25px;
+  margin-inline: auto;
   text-align: justify;
   text-justify: auto;
-  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.about-right img {
+  min-width: 80%;
+  height: auto;
 }
 
 /* Interests */
 #interests {
-  height: 100vh;
-  width: 100vw;
-  /* background: #43c6ac; /* fallback for old browsers */
+  min-height: 100vh;
+  min-width: 100vw;
   background: -webkit-linear-gradient(
     to right,
     #134558,
@@ -281,9 +243,9 @@ nav a:hover {
 
 #container {
   width: 100%;
-  height: 700px;
+  height: 43.75rem;
   -webkit-perspective: 800; /* For compatibility with iPhone 3.0, we leave off the units here */
-  -webkit-perspective-origin: 50% 225px;
+  -webkit-perspective-origin: 50% 14.063rem;
 }
 #stage {
   width: 100%;
@@ -294,34 +256,31 @@ nav a:hover {
 
 #shape {
   position: relative;
-  top: 160px;
+  top: 10rem;
   margin: 0 auto;
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   -webkit-transform-style: preserve-3d;
 }
 
 .plane {
   position: absolute;
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
   border: 1px solid white;
   color: white;
-  -webkit-border-radius: 12px;
+  -webkit-border-radius: 0.75rem;
   -webkit-box-sizing: border-box;
   text-align: center;
-
-  font-size: 20px;
-  padding-top: 60px;
-
-  /* color: black; */
+  font-size: 1.25rem;
+  padding-top: 3.75rem;
   background-color: #72c494;
   -webkit-transition: -webkit-transform 2s, opacity 2s;
   -webkit-backface-visibility: hidden;
 }
 
 .plane p {
-  padding: 5px;
+  padding: 0.213rem;
 }
 
 #shape.backfaces .plane {
@@ -343,57 +302,57 @@ nav a:hover {
 }
 /* ---------- ring styles ------------- */
 .ring > .one {
-  -webkit-transform: translateZ(380px);
+  -webkit-transform: translateZ(23.75rem);
 }
 
 .ring > .two {
-  -webkit-transform: rotateY(30deg) translateZ(380px);
+  -webkit-transform: rotateY(30deg) translateZ(23.75rem);
 }
 
 .ring > .three {
-  -webkit-transform: rotateY(60deg) translateZ(380px);
+  -webkit-transform: rotateY(60deg) translateZ(23.75rem);
 }
 
 .ring > .four {
-  -webkit-transform: rotateY(90deg) translateZ(380px);
+  -webkit-transform: rotateY(90deg) translateZ(23.75rem);
 }
 
 .ring > .five {
-  -webkit-transform: rotateY(120deg) translateZ(380px);
+  -webkit-transform: rotateY(120deg) translateZ(23.75rem);
 }
 
 .ring > .six {
-  -webkit-transform: rotateY(150deg) translateZ(380px);
+  -webkit-transform: rotateY(150deg) translateZ(23.75rem);
 }
 
 .ring > .seven {
-  -webkit-transform: rotateY(180deg) translateZ(380px);
+  -webkit-transform: rotateY(180deg) translateZ(23.75rem);
 }
 
 .ring > .eight {
-  -webkit-transform: rotateY(210deg) translateZ(380px);
+  -webkit-transform: rotateY(210deg) translateZ(23.75rem);
 }
 
 .ring > .nine {
-  -webkit-transform: rotateY(-120deg) translateZ(380px);
+  -webkit-transform: rotateY(-120deg) translateZ(23.75rem);
 }
 
 .ring > .ten {
-  -webkit-transform: rotateY(-90deg) translateZ(380px);
+  -webkit-transform: rotateY(-90deg) translateZ(23.75rem);
 }
 
 .ring > .eleven {
-  -webkit-transform: rotateY(300deg) translateZ(380px);
+  -webkit-transform: rotateY(300deg) translateZ(23.75rem);
 }
 
 .ring > .twelve {
-  -webkit-transform: rotateY(330deg) translateZ(380px);
+  -webkit-transform: rotateY(330deg) translateZ(23.75rem);
 }
 #interests h1 {
-  font-size: 120px;
-  letter-spacing: 10px;
+  font-size: 7.5rem;
+  letter-spacing: 0.625rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: rgba(83, 197, 172, 0.5);
   font-weight: 600;
 }
@@ -401,29 +360,28 @@ nav a:hover {
 /* Projects */
 
 #projects {
-  /* height: 100vh; */
   width: 98vw;
 }
 
 #projects h1 {
-  font-size: 120px;
-  letter-spacing: 10px;
+  font-size: 7.5rem;
+  letter-spacing: 0.625rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-weight: 600;
 }
 
 #projects h2 {
-  font-size: 50px;
-  letter-spacing: 5px;
+  font-size: 3.125rem;
+  letter-spacing: 0.313rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 #projects h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: white;
 }
 
@@ -432,19 +390,18 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .project-card {
-  /* background-color: rgb(196, 232, 241); */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   opacity: 30%;
   width: 18vw;
-  height: 45vh;
-  margin: 30px;
+  height: 20.563rem;
+  margin: 1.875rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,7 +409,7 @@ nav a:hover {
 }
 
 .project-card:hover {
-  box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.563rem 1rem 0 rgba(0, 0, 0, 0.4);
   transform: scale(1.1);
 }
 
@@ -462,7 +419,6 @@ nav a:hover {
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 10%;
-
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -470,29 +426,31 @@ nav a:hover {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  /* overflow-y: hidden; */
 }
 
 /* Modal Content */
 .modal-container {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 1.25rem;
   border: 1px solid #888;
   width: 60%;
-  height: 85%;
-  /* overflow-y: hidden; */
+  height: 32.834rem;
 }
 
 .model-content {
-  /* margin-top: 70px; */
-  padding: 50px;
+  padding: 3.125rem;
+}
+
+.project-left img {
+  height: auto;
+  max-width: 95%;
 }
 
 .project-top {
   display: flex;
   justify-content: space-between;
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .project-right {
@@ -506,34 +464,30 @@ nav a:hover {
   flex-wrap: wrap;
 }
 .project-right p {
-  padding: 7px 12px;
-  border-radius: 18px;
+  padding: 0.438rem 0.75rem;
+  border-radius: 1.125rem;
   border: none;
   outline: none;
   background-color: #15a38c;
   opacity: 0.8;
-  margin: 3px 4px;
+  margin: 0.188rem 0.25rem;
   color: white;
+  font-size: 1rem;
 }
 
 .description {
-  font-size: 19px;
+  font-size: 1.188rem;
 }
-
-/* .github-link {
-  display: flex;
-  flex-direction: column;
-} */
 
 .github-link a {
   text-decoration: none;
   cursor: pointer;
 
   color: rgb(63, 62, 62);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  border-bottom: 3px solid #27dfc0;
-  margin-right: 15px;
+  border-bottom: 0.188rem solid #27dfc0;
+  margin-right: 0.938rem;
 
   transition: all 0.25s linear;
   position: relative;
@@ -543,11 +497,11 @@ nav a:hover {
   content: "";
   display: block;
   width: 100%;
-  height: 3px;
+  height: 0.188rem;
   background-color: #1a96c7;
   position: absolute;
   left: 0;
-  bottom: -3px;
+  bottom: -0.188rem;
   transform-origin: left;
   transform: scale(0);
   transition: 0.25s linear;
@@ -558,19 +512,19 @@ nav a:hover {
 }
 
 .model-content h4 {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
 }
 
 .model-content h5 {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /* The Close Button */
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 
@@ -583,15 +537,15 @@ nav a:hover {
 
 /* Contact */
 #contact {
-  height: 100vh;
-  width: 98vw;
+  min-height: 100vh;
+  min-width: 98vw;
 }
 
 #contact h1 {
-  font-size: 120px;
-  letter-spacing: 10px;
+  font-size: 7.5rem;
+  letter-spacing: 0.625rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-weight: 600;
 }
 
@@ -607,7 +561,7 @@ button,
 input {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 0.088rem;
 }
 
 .background {
@@ -616,15 +570,15 @@ input {
 }
 
 .container {
-  flex: 0 1 700px;
+  flex: 0 1 43.75rem;
   margin: auto;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 .screen {
   position: relative;
   background: #3e3e3e;
-  border-radius: 15px;
+  border-radius: 0.938rem;
 }
 
 .screen:after {
@@ -632,21 +586,21 @@ input {
   display: block;
   position: absolute;
   top: 0;
-  left: 20px;
-  right: 20px;
+  left: 1.25rem;
+  right: 1.25rem;
   bottom: 0;
-  border-radius: 15px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  border-radius: 0.938rem;
+  box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.4);
   z-index: -1;
 }
 
 .screen-header {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   background: #4d4d4f;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 0.938rem;
+  border-top-right-radius: 0.938rem;
 }
 
 .screen-header-left {
@@ -655,10 +609,8 @@ input {
 
 .screen-header-button {
   display: inline-block;
-
   width: 8px;
   height: 8px;
-  /* margin-right: 2px; */
   border-radius: 8px;
   background: white;
 }
@@ -715,17 +667,17 @@ input {
   display: block;
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -0.625rem;
   width: 25px;
   height: 4px;
   background: #177579;
 }
 
 .app-form {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 .app-form-group {
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
 }
 
 .app-form-group i {
@@ -734,7 +686,7 @@ input {
 
 .app-form-group a {
   color: #25c3c9;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   text-decoration: none;
 }
 
@@ -776,35 +728,35 @@ input {
 
 /* Courses Done */
 #certificates {
-  height: 100vh;
-  width: 98vw;
+  min-height: 45.688rem;
+  min-width: 100vw;
 }
 
 #certificates h1 {
-  font-size: 120px;
-  letter-spacing: 10px;
+  font-size: 7.5rem;
+  letter-spacing: 0.625rem;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   font-weight: 600;
+  margin-bottom: 3.5rem;
 }
 
 #certificates h3 {
-  font-size: 30px;
+  font-size: 1.875rem;
   text-align: center;
 
   color: white;
 }
 
 .certificate-card {
-  /* background-color: rgb(196, 232, 241); */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   opacity: 30%;
   width: 20vw;
-  height: 30vh;
-  margin: 20px;
+  height: 13.706rem;
+  margin: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -812,30 +764,207 @@ input {
 }
 
 .certificate-card:hover {
-  box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0.563rem 1rem 0 rgba(0, 0, 0, 0.4);
   transform: scale(1.1);
 }
 
 .modal-container.certificate-modal {
-  width: 65%;
-  height: 90%;
+  width: 60%;
+  height: 41.119rem;
 }
 
 .model-content.cert-image {
-  margin-left: 50px;
-  margin-top: 18px;
+  margin-left: 1.89rem;
+  margin-top: 3.125rem;
   height: 95%;
-  padding: 10px;
+  padding: 0.625rem;
 }
 
-.glyphicon.glyphicon-chevron-right {
-  /* margin-right: 20px; */
+.cert-image img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  width: 43rem;
 }
 
-.carousel-control.right {
-  margin-right: 95px;
+.carousel-inner img {
+  height: 48.75rem;
 }
 
 .modal.cert {
-  padding-top: 20px;
+  padding-top: 1.25rem;
+}
+
+/* Responsive styles */
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 12px;
+  }
+  .modal-container {
+    width: 68%;
+    height: 74%;
+  }
+  .cert-image img {
+    min-width: 100%;
+    height: auto;
+  }
+  .modal-container.certificate-modal {
+    width: 75%;
+    height: auto;
+  }
+}
+
+@media (max-width: 850px) {
+  html {
+    font-size: 10px;
+  }
+  .about-content {
+    flex-wrap: wrap;
+  }
+  #interests {
+    min-height: 60vh;
+  }
+  .project-top {
+    flex-wrap: wrap;
+  }
+  .project-right {
+    width: 98%;
+  }
+  .modal-container {
+    width: 70%;
+    height: 94%;
+  }
+  .project-right h5 {
+    font-size: 15px;
+  }
+
+  .projects-gallery h4 {
+    font-size: 18px;
+  }
+  .projects-gallery p {
+    font-size: 13.5px;
+  }
+  .github-link a {
+    font-size: 13.5px;
+  }
+  .modal.cert {
+    padding-top: 20%;
+  }
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 9px;
+  }
+  .modal-container {
+    width: 80%;
+    height: 91%;
+  }
+  .modal {
+    padding-top: 15%;
+  }
+  .modal.cert {
+    padding-top: 25%;
+  }
+  .project-card {
+    width: 28vw;
+  }
+  .project-right h5 {
+    font-size: 15px;
+  }
+  .certificate-card {
+    width: 27vw;
+  }
+  .projects-gallery h4 {
+    font-size: 18px;
+  }
+  .projects-gallery p {
+    font-size: 12.8px;
+  }
+  .github-link a {
+    font-size: 13px;
+  }
+  .cert-image img {
+    min-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 490px) {
+  html {
+    font-size: 7px;
+  }
+  #about p {
+    font-size: 15px;
+    padding: 20px;
+  }
+  .about-right img {
+    width: 70%;
+    height: auto;
+  }
+  .modal-container {
+    width: 80%;
+    height: 88%;
+  }
+  .project-right h5 {
+    font-size: 15px;
+  }
+  .project-card {
+    width: 30vw;
+  }
+
+  .certificate-card {
+    width: 27vw;
+  }
+
+  .modal {
+    padding-top: 20%;
+  }
+  .modal.cert {
+    padding-top: 30%;
+  }
+  .modal-container.certificate-modal {
+    width: 95%;
+    height: 75%;
+  }
+  .cert-image img {
+    min-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .modal-container.certificate-modal {
+    height: 68%;
+  }
+}
+
+@media (max-width: 370px) {
+  html {
+    font-size: 6px;
+  }
+  #about p {
+    font-size: 13x;
+    padding: 14px;
+    padding-bottom: 20px;
+  }
+  .modal-container {
+    width: 80%;
+    height: 96%;
+  }
+  .projects-gallery h4 {
+    font-size: 16px;
+  }
+  .modal-container.certificate-modal {
+    width: 95%;
+    height: 64%;
+  }
+  .modal {
+    padding-top: 35%;
+  }
+  .modal.cert {
+    padding-top: 50%;
+  }
 }
