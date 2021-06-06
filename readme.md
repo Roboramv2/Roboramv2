@@ -5,7 +5,7 @@
  Check out my work here: [My website](https://roboramv2.github.io/Roboramv2/)
 
 ## Top 5 Interests: 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Space+Exploration;Material+Analysis;Hardware+Architecture;Machine+Learning;Sustainable+Habitation)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Space+Exploration;Material+Analysis;Hardware+Architecture;Machine+Learning;Robotics)
 
 ## Other Interests:
 Web Dev, IoT, 3D Modelling, Photoshop, Marine Biology, Small-scale Automation, Alternate Energy.
@@ -27,13 +27,8 @@ Web Dev, IoT, 3D Modelling, Photoshop, Marine Biology, Small-scale Automation, A
 ![Badge](https://img.shields.io/badge/HTML-10507a?logo=html5)
 ![Badge](https://img.shields.io/badge/CSS-10507a?logo=css3)
 
-
-## Activity:
-
-![streak moment](https://github-readme-streak-stats.herokuapp.com/?user=Roboramv2&theme=blue-green)
-
 ## Connections:
-![Badge](https://img.shields.io/badge/Mail-sriramkraja@gmail.com-454eb0?logo=gmail)
+[![Badge](https://img.shields.io/badge/Mail-sriramkraja@gmail.com-454eb0?logo=gmail)](mailto:sriramkraja@gmail.com)
 [![Badge](https://img.shields.io/badge/Linkedin-Sriram%20R-454eb0?logo=linkedin)](https://www.linkedin.com/in/sriram-r-745a531b0/)
 [![Badge](https://img.shields.io/badge/Youtube-Sriram%20R-454eb0?logo=youtube)](https://www.youtube.com/channel/UCopYYR3Du9RA--kK9ZQ3nbw)
 ![Badge](https://img.shields.io/badge/Discord-Roboram%23%201298-454eb0?logo=discord)
