@@ -4,13 +4,6 @@
  I am a Third year B.E. ECE student at SSN College of Engineering. I am interested in several fields of technology but it all mostly boils down to how these fields apply in space, particularly other planets. Other than that, I have delved a bit into Web Development, API's, Internet of Things, 3D Design etc.
  Check out my work here: [My website](https://roboramv2.github.io/Roboramv2/)
 
-## Top 5 Interests: 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Space+Exploration;Material+Analysis;Hardware+Architecture;Machine+Learning;Robotics)
-
-## Other Interests:
-Web Dev, IoT, 3D Modelling, Photoshop, Marine Biology, Small-scale Automation, Alternate Energy.
-
-
 ## Tools i am familiar with:
 ![Badge](https://img.shields.io/badge/VS%20Code-10507a?logo=visual-studio-code)
 ![Badge](https://img.shields.io/badge/Heroku-10507a?logo=heroku)
